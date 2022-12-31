@@ -3,7 +3,11 @@
 const Navbar = () => {
     return (
       <nav>
-        <img src="../Images/airbnb.png" alt="logo" className="logo" />
+        <img
+          src="../react-project1/Images/airbnb.png"
+          alt="logo"
+          className="logo"
+        />
       </nav>
     );
 
