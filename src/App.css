@@ -17,16 +17,19 @@ nav{
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
     padding: 0 2.2rem;
     align-items: center;
+    width: 100%;
 
 }
 .logo{
     max-width: 6.3rem;
 }
 .hero-photo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 95%;
     padding:  2rem 0 ;
+    margin: 0 auto;
+}
+.hero-image{
+    width: 95%;
 }
 
     
@@ -85,4 +88,38 @@ nav{
  .card1-bottom , .card1-bottom2 , .card1-bottom3 {
     padding-bottom: 0.5rem;
 
+}
+@media (max-width: 426px) {
+    nav{
+        width: 100%;
+    }
+        .hero-image {
+            width: 95%;
+           
+        }
+        .hero p{
+            width: 80%;
+        }
+        .cardholder{
+            flex-direction: column;
+        }
+}
+@media (min-width:427px ) and (max-width: 768px) {
+    .hero-image {
+            width: 95%;
+    
+        }
+    
+        .hero p {
+            width: 80%;
+        }
+    
+        .cardholder {
+            
+        }
+        .card{
+            width: 12rem;
+   
+    margin: 2rem 1rem;
+}
 }
