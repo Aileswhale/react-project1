@@ -62,7 +62,7 @@ nav{
     border-radius: 9px;
 }
 .card{
-    width: 17rem;
+    width: 17rem; 
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
